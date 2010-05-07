@@ -1,11 +1,10 @@
 #!/usr/bin/env ruby
 
 require 'rubygems'
+require 'zalgo'
 
-begin
-  require 'zalgo'
-rescue LoadError
-  require 'lib/zalgo/zalgo'
+if ARGV[0]
+  puts Zalgo.he_comes ARGV.join(' ')
+else
+  puts Zalgo.he_comes STDIN.read
 end
-
-puts Zalgo.he_comes ARGV.join(' ')
