@@ -2,7 +2,7 @@ require 'rake'
 
 Gem::Specification.new do |s|
   s.name = %q{zalgo}
-  s.version = '0.0.3'
+  s.version = '0.0.4'
 
   s.required_rubygems_version = Gem::Requirement.new('>= 0') if s.respond_to? :required_rubygems_version=
   s.authors = ['Alex R. Young']
@@ -16,5 +16,6 @@ Gem::Specification.new do |s|
   s.default_executable = 'bin/jschat-server'
   s.homepage = %q{http://github.com/alexyoung/zalgo}
   s.summary = %q{G̵̢̤̥̝̟͕ͨ̎e̡̘̣͎̿ͣ̑́̐̂̀͌n̶̻ͩͧ͐e̟̞͆̔ͬͥ͋̄ͯ̔͝r̴̻̱͙͎̬ͪ͐ͯaͤͧ҉_̴̼̪͓͍̥t̸̵̤͇͂̎͐̈ͬ̉e͍̩̠̖̳̗͐ͧ͗̇͊͂̀ṣ̯̝̳̗͌ͮ͞ͅ ̣̄̊ż̳̩̠̮͕̖̠̲͂̏̅ạͫ͜ͅl̛̞͕͆͛̀̃̐͐ͦ͞ͅg̢̼̻̼͓̪͂ͬ̿ͪͤ̐̐̐͟ȏ̦͇͕ͥͧ̆.̸͓̻̜̩̗͙̇ͭ̎̅ͧͩ͑̐}
+  s.post_install_message = %q{Ḧ̹͇̟̞̼̲̬͑͘͟Ę̥̰͇̝̺̝̪ͤͮ̽̈̒ͨͣ ̝͚̘̭̣ͭ͐́̈ͫ̈͞ͅC͚̮͈͈̠̭̊̾͐ͫ̑͆͛͌ͅȌ̙̭͚̘̯͍́ͫ̐̓ͨͧM̸͇͈̻͍͍̝̯͍͋̃̎̉̊́͜Ĕ̥̝̑͒ͥͩ̅̽Ș̢̹͚̺̩̙̜ͤ͒͊̏̑ͧ}
 end
 
